@@ -1,0 +1,11 @@
+{
+	"DefaultCompletionName" = Class;
+	Description = "An Objective-C NSManagedObject subclass, with a header.";
+	Kind = "Xcode.IDECoreDataModeler.ManagedObjectTemplateKind";
+	MainTemplateFile = "___FILEBASENAME___.m";
+	AllowedTypes = (
+		"public.objective-c-source",
+	);
+	Options = ();
+	Summary = "An Objective-C NSManagedObject subclass with a header";
+}
