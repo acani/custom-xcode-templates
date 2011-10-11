@@ -17,7 +17,7 @@ Now, when you create a new file in Xcode, you should see "My Cocoa Touch" &
 Contributing
 ------------
 
-* Fork this repo and clone your fork.
+* Fork this repo and add your fork as a remote.
 * To start, copy templates from the directories below into your fork:
   * `/Developer/Library/Xcode/Templates/`
   * `/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates`
