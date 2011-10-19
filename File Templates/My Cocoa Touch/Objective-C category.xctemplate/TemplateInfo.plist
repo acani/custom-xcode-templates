@@ -18,10 +18,24 @@
 	<key>Options</key>
 	<array>
 		<dict>
+			<key>Description</key>
+			<string>The name of the category to create</string>
+			<key>Identifier</key>
+			<string>categoryName</string>
+			<key>Name</key>
+			<string>Category</string>
+			<key>NotPersisted</key>
+			<true/>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>text</string>
+		</dict>
+		<dict>
 			<key>Default</key>
 			<string>NSObject</string>
 			<key>Description</key>
-			<string>What class to add a category to</string>
+			<string>Which class to add a category to</string>
 			<key>Identifier</key>
 			<string>categoryClass</string>
 			<key>Name</key>
@@ -31,12 +45,20 @@
 			<key>Type</key>
 			<string>text</string>
 		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_categoryClass:identifier___+___VARIABLE_categoryName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>Summary</key>
-	<string>An Objective-C category</string>
+	<string>An Objective-C category with a header for Cocoa Touch</string>
 </dict>
 </plist>
