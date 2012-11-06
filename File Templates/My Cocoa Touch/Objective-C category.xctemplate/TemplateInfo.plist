@@ -7,6 +7,8 @@
 		<string>public.objective-c-source</string>
 		<string>public.objective-c-plus-plus-source</string>
 	</array>
+	<key>ChooserOnly</key>
+	<true/>
 	<key>DefaultCompletionName</key>
 	<string>Category</string>
 	<key>Description</key>
@@ -43,7 +45,7 @@
 			<key>Required</key>
 			<true/>
 			<key>Type</key>
-			<string>text</string>
+			<string>class</string>
 		</dict>
 		<dict>
 			<key>Default</key>

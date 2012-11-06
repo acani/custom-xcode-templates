@@ -8,10 +8,12 @@
 	</array>
 	<key>BuildableType</key>
 	<string>None</string>
+	<key>ChooserOnly</key>
+	<true/>
 	<key>DefaultCompletionName</key>
-	<string>Protocol</string>
+	<string>Private</string>
 	<key>Description</key>
-	<string>An Objective-C protocol which includes the &lt;Foundation/Foundation.h&gt; header.</string>
+	<string>An Objective-C class extension header.</string>
 	<key>Kind</key>
 	<string>Xcode.IDEKit.TextSubstitutionFileTemplateKind</string>
 	<key>MainTemplateFile</key>
@@ -20,11 +22,11 @@
 	<array>
 		<dict>
 			<key>Description</key>
-			<string>The name of the protocol to create</string>
+			<string>The name of the class extension file to create</string>
 			<key>Identifier</key>
-			<string>productName</string>
+			<string>extensionName</string>
 			<key>Name</key>
-			<string>Protocol</string>
+			<string>Extension Name</string>
 			<key>NotPersisted</key>
 			<true/>
 			<key>Required</key>
@@ -32,12 +34,32 @@
 			<key>Type</key>
 			<string>text</string>
 		</dict>
+		<dict>
+			<key>Description</key>
+			<string>Which class to add an extension for</string>
+			<key>Identifier</key>
+			<string>extensionClass</string>
+			<key>Name</key>
+			<string>Class</string>
+			<key>Required</key>
+			<true/>
+			<key>Type</key>
+			<string>class</string>
+		</dict>
+		<dict>
+			<key>Default</key>
+			<string>___VARIABLE_extensionClass:identifier_______VARIABLE_extensionName:identifier___</string>
+			<key>Identifier</key>
+			<string>productName</string>
+			<key>Type</key>
+			<string>static</string>
+		</dict>
 	</array>
 	<key>Platforms</key>
 	<array>
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>Summary</key>
-	<string>An Objective-C protocol for Cocoa Touch</string>
+	<string>An Objective-C class extension</string>
 </dict>
 </plist>

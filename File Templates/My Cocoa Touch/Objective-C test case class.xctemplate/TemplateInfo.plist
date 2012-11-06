@@ -7,6 +7,8 @@
 		<string>public.objective-c-source</string>
 		<string>public.objective-c-plus-plus-source</string>
 	</array>
+	<key>BuildableType</key>
+	<string>Test</string>
 	<key>DefaultCompletionName</key>
 	<string>Test</string>
 	<key>Description</key>
@@ -37,6 +39,6 @@
 		<string>com.apple.platform.iphoneos</string>
 	</array>
 	<key>Summary</key>
-	<string>An Objective-C class containing an OCUnit test case</string>
+	<string>An Objective-C class containing an OCUnit test case with a header for Cocoa Touch</string>
 </dict>
 </plist>

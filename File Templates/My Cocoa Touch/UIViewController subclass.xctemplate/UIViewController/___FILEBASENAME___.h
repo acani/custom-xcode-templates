@@ -1,5 +1,0 @@
-___IMPORTHEADER_viewControllerSubclass___
-
-@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_viewControllerSubclass___
-
-@end

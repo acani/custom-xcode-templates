@@ -1,5 +1,5 @@
-#import <UIKit/UIKit.h>
+___IMPORTHEADER_cocoaTouchSubclass___
 
-@interface ___FILEBASENAMEASIDENTIFIER___ : UIView
+@interface ___FILEBASENAMEASIDENTIFIER___ : ___VARIABLE_cocoaTouchSubclass___
 
 @end
