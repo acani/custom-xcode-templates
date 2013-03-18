@@ -4,6 +4,7 @@ Xcode Custom Templates
 Use these custom templates when creating new files in Xcode.
 They leave out the comment headers at the top of files.
 
+
 Installation
 ------------
 
@@ -17,12 +18,14 @@ Now, when you create a new file in Xcode, you should see "My Cocoa Touch" &
 Contributing
 ------------
 
-* Fork this repo and add your fork as a remote.
-* To start, copy templates from the directories below into your fork:
-  * `/Developer/Library/Xcode/Templates/`
-  * `/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates`
-* Test by creating a new file with each new template in Xcode.
-* Add, commit, and push your changes, and send a pull reqest. Thanks!
+* Fork this repo, and add your fork as a remote.
+* To start, copy templates from the following directories into your fork.
+  * `/Applications/Xcode.app/Contents/Developer/Library/Xcode/Templates/`
+  * `/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/Library/Xcode/Templates/`
+* Test by creating a new file in Xcode with each new template.
+* Add, commit, and push your changes, and send a pull request.
+
+Thanks!
 
 
 License
