@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Definitions</key>
+	<dict>
+		<key>*:*:importCocoa</key>
+		<string>#import &lt;UIKit/UIKit.h&gt;
+</string>
+	</dict>
+	<key>Identifier</key>
+	<string>com.acani.dt.unit.iPhoneBase</string>
+	<key>Kind</key>
+	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
+	<key>Platforms</key>
+	<array>
+		<string>com.apple.platform.iphoneos</string>
+	</array>
+	<key>Project</key>
+	<dict>
+		<key>Configurations</key>
+		<dict>
+			<key>Debug</key>
+			<dict>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+			</dict>
+			<key>Release</key>
+			<dict>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+		</dict>
+		<key>SDK</key>
+		<string>iphoneos</string>
+		<key>SharedSettings</key>
+		<dict>
+			<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+			<string>latest_iphoneos</string>
+			<key>CLANG_ENABLE_OBJC_ARC</key>
+			<string>YES</string>
+		</dict>
+	</dict>
+</dict>
+</plist>
