@@ -5,12 +5,12 @@
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
 	<key>Identifier</key>
-	<string>com.apple.dt.unit.objectiveCUnitTestBundle</string>
+	<string>com.acani.dt.unit.objectiveCUnitTestBundle</string>
 	<key>TargetOnly</key>
 	<true/>
 	<key>Ancestors</key>
 	<array>
-		<string>com.apple.dt.unit.bundleBase</string>
+		<string>com.acani.dt.unit.bundleBase</string>
 	</array>
 	<key>Targets</key>
 	<array>
@@ -65,7 +65,6 @@
 	<key>Nodes</key>
 	<array>
 		<string>___PACKAGENAME___-Info.plist:UnitTesting</string>
-		<string>___PACKAGENAMEASIDENTIFIER___.h</string>
 		<string>___PACKAGENAMEASIDENTIFIER___.m</string>
 	</array>
 	<key>Definitions</key>
@@ -86,11 +85,6 @@
 &lt;key&gt;CFBundleSignature&lt;/key&gt;
 &lt;string&gt;????&lt;/string&gt;
 </string>
-		<key>___PACKAGENAMEASIDENTIFIER___.h</key>
-		<dict>
-			<key>Path</key>
-			<string>___PACKAGENAMEASIDENTIFIER___.h</string>
-		</dict>
 		<key>___PACKAGENAMEASIDENTIFIER___.m</key>
 		<dict>
 			<key>Path</key>
