@@ -1,4 +1,7 @@
-#import "___FILEBASENAME___.h"
+#import <SenTestingKit/SenTestingKit.h>
+
+@interface ___FILEBASENAMEASIDENTIFIER___ : SenTestCase
+@end
 
 @implementation ___FILEBASENAMEASIDENTIFIER___
 
