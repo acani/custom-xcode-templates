@@ -64,27 +64,20 @@
 	</array>
 	<key>Nodes</key>
 	<array>
-		<string>___PACKAGENAME___-Info.plist:UnitTesting</string>
+		<string>Info.plist</string>
 		<string>___PACKAGENAMEASIDENTIFIER___.m</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
-		<key>___PACKAGENAME___-Info.plist:UnitTesting</key>
-		<string>&lt;key&gt;CFBundleExecutable&lt;/key&gt;
-&lt;string&gt;${EXECUTABLE_NAME}&lt;/string&gt;
-&lt;key&gt;CFBundleInfoDictionaryVersion&lt;/key&gt;
-&lt;string&gt;6.0&lt;/string&gt;
-&lt;key&gt;CFBundleShortVersionString&lt;/key&gt;
-&lt;string&gt;1.0&lt;/string&gt;
-&lt;key&gt;CFBundleVersion&lt;/key&gt;
-&lt;string&gt;1&lt;/string&gt;
-&lt;key&gt;CFBundleDevelopmentRegion&lt;/key&gt;
-&lt;string&gt;en&lt;/string&gt;
-&lt;key&gt;CFBundlePackageType&lt;/key&gt;
-&lt;string&gt;BNDL&lt;/string&gt;
-&lt;key&gt;CFBundleSignature&lt;/key&gt;
-&lt;string&gt;????&lt;/string&gt;
-</string>
+		<key>Info.plist</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>Info.plist</string>
+			<key>TargetIndices</key>
+			<array/>
+		</dict>
 		<key>___PACKAGENAMEASIDENTIFIER___.m</key>
 		<dict>
 			<key>Path</key>

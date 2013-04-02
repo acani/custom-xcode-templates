@@ -52,7 +52,7 @@
 				<key>FRAMEWORK_SEARCH_PATHS</key>
 				<string>"$(SDKROOT)/Developer/Library/Frameworks" "$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>___PARENTPACKAGENAME___/___PARENTPACKAGENAME___-Prefix.pch</string>
+				<string>___PARENTPACKAGENAME___/Prefix.pch</string>
 				<key>TEST_HOST</key>
 				<string>$(BUNDLE_LOADER)</string>
 			</dict>

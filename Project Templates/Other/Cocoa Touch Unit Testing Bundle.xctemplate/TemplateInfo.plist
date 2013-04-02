@@ -15,11 +15,6 @@
 	<string>com.acani.dt.unit.cocoaTouchUnitTestBundle</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
-	<key>Nodes</key>
-	<array>
-		<string>___PACKAGENAME___-Prefix.pch:objC:importCocoa</string>
-		<string>___PACKAGENAME___-Prefix.pch:objC:importFoundation</string>
-	</array>
 	<key>SortOrder</key>
 	<integer>1</integer>
 	<key>Targets</key>
