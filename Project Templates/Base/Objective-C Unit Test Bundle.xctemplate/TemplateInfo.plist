@@ -22,7 +22,7 @@
 				<key>WRAPPER_EXTENSION</key>
 				<string>octest</string>
 				<key>FRAMEWORK_SEARCH_PATHS</key>
-				<string>&quot;$(DEVELOPER_LIBRARY_DIR)/Frameworks&quot;</string>
+				<string>"$(DEVELOPER_LIBRARY_DIR)/Frameworks"</string>
 			</dict>
 			<key>Configurations</key>
 			<dict>
@@ -52,7 +52,7 @@
 					<string>/bin/sh</string>
 					<key>ShellScript</key>
 					<string># Run the unit tests in this test bundle.
-&quot;${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests&quot;
+"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests"
 </string>
 				</dict>
 			</array>

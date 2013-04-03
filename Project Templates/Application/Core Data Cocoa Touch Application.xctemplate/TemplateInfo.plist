@@ -45,7 +45,7 @@
 - (NSURL *)applicationDocumentsDirectory;
 </string>
 						<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationWillTerminate:comments</key>
-						<string>// Saves changes in the application's managed object context before the application terminates.
+						<string>// Saves changes in the application&apos;s managed object context before the application terminates.
 </string>
 						<key>___VARIABLE_classPrefix:identifier___AppDelegate.m:applicationWillTerminate:save</key>
 						<string>[self saveContext];
@@ -68,7 +68,7 @@
 #pragma mark - Core Data stack
 
 // Returns the managed object context for the application.
-// If the context doesn't already exist, it is created and bound to the persistent store coordinator for the application.
+// If the context doesn&apos;t already exist, it is created and bound to the persistent store coordinator for the application.
 - (NSManagedObjectContext *)managedObjectContext
 {
     if (_managedObjectContext != nil) {
@@ -84,7 +84,7 @@
 }
 
 // Returns the managed object model for the application.
-// If the model doesn't already exist, it is created from the application's model.
+// If the model doesn&apos;t already exist, it is created from the application&apos;s model.
 - (NSManagedObjectModel *)managedObjectModel
 {
     if (_managedObjectModel != nil) {
@@ -96,7 +96,7 @@
 }
 
 // Returns the persistent store coordinator for the application.
-// If the coordinator doesn't already exist, it is created and the application's store added to it.
+// If the coordinator doesn&apos;t already exist, it is created and the application&apos;s store added to it.
 - (NSPersistentStoreCoordinator *)persistentStoreCoordinator
 {
     if (_persistentStoreCoordinator != nil) {
@@ -119,7 +119,7 @@
          Check the error message to determine what the actual problem was.
          
          
-         If the persistent store is not accessible, there is typically something wrong with the file path. Often, a file URL is pointing into the application's resources directory instead of a writeable directory.
+         If the persistent store is not accessible, there is typically something wrong with the file path. Often, a file URL is pointing into the application&apos;s resources directory instead of a writeable directory.
          
          If you encounter schema incompatibility errors during development, you can reduce their frequency by:
          * Simply deleting the existing store:
@@ -138,9 +138,9 @@
     return _persistentStoreCoordinator;
 }
 
-#pragma mark - Application's Documents directory
+#pragma mark - Application&apos;s Documents directory
 
-// Returns the URL to the application's Documents directory.
+// Returns the URL to the application&apos;s Documents directory.
 - (NSURL *)applicationDocumentsDirectory
 {
     return [[[NSFileManager defaultManager] URLsForDirectory:NSDocumentDirectory inDomains:NSUserDomainMask] lastObject];
