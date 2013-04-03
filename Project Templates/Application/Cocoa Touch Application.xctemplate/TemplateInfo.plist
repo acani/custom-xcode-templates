@@ -147,7 +147,7 @@
 								<key>Identifier</key>
 								<string>com.acani.dt.unit.cocoaTouchApplicationUnitTestBundle</string>
 								<key>Name</key>
-								<string>___PACKAGENAME___Tests</string>
+								<string>___PACKAGENAME___Specs</string>
 							</dict>
 						</array>
 					</dict>

@@ -78,6 +78,13 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
+		<key>Info.plist</key>
+		<dict>
+			<key>Group</key>
+			<string>Supporting Files</string>
+			<key>Path</key>
+			<string>NSInvocation+SetTestMethodPrefixToSpec.m</string>
+		</dict>
 		<key>___PACKAGENAMEASIDENTIFIER___.m</key>
 		<dict>
 			<key>Path</key>
