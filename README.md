@@ -3,7 +3,7 @@ Xcode Custom Templates
 
 Custom Xcode Project & File Templates
 
-Last updated & tested using Xcode Version 4.6 (4H127).
+Last updated & tested using Xcode Version 4.6.1 (4H512).
 
 
 Installation
