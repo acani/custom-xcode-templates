@@ -65,7 +65,8 @@
 	<key>Nodes</key>
 	<array>
 		<string>Info.plist</string>
-		<string>___PACKAGENAMEASIDENTIFIER___.m</string>
+		<string>NSInvocation+SetTestMethodPrefixToSpec.m</string>
+		<string>___VARIABLE_classPrefix:identifier___AppDelegateSpecs.m</string>
 	</array>
 	<key>Definitions</key>
 	<dict>
@@ -78,17 +79,17 @@
 			<key>TargetIndices</key>
 			<array/>
 		</dict>
-		<key>Info.plist</key>
+		<key>NSInvocation+SetTestMethodPrefixToSpec.m</key>
 		<dict>
 			<key>Group</key>
 			<string>Supporting Files</string>
 			<key>Path</key>
 			<string>NSInvocation+SetTestMethodPrefixToSpec.m</string>
 		</dict>
-		<key>___PACKAGENAMEASIDENTIFIER___.m</key>
+		<key>___VARIABLE_classPrefix:identifier___AppDelegateSpecs.m</key>
 		<dict>
 			<key>Path</key>
-			<string>___PACKAGENAMEASIDENTIFIER___.m</string>
+			<string>AppDelegateSpecs.m</string>
 		</dict>
 	</dict>
 </dict>
