@@ -127,13 +127,11 @@
 			<key>Default</key>
 			<string>true</string>
 			<key>Description</key>
-			<string>Whether a unit test bundle should be created</string>
+			<string>Whether a spec bundle should be created</string>
 			<key>Identifier</key>
-			<string>includeUnitTests</string>
+			<string>includeSpecs</string>
 			<key>Name</key>
-			<string>Include Unit Tests</string>
-			<key>SortOrder</key>
-			<integer>2</integer>
+			<string>Include Specs</string>
 			<key>Type</key>
 			<string>checkbox</string>
 			<key>Units</key>
