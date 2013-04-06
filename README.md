@@ -38,11 +38,11 @@ For now, to manually circumvent these issues, follow the steps below after creat
 
 1. Create a `.gitignore` file, which tells Git which files to ignore (not to track).
 
-   Enter the following commands in Terminal.
+    Enter the following commands in Terminal.
 
-      cd ~/Projects/MyProject            # changes directory to the project root directory
-      echo ".DS_Store"  >  .gitignore    # overwrites .gitignore file with ".DS_Store"
-      echo "xcuserdata" >> .gitignore    # appends xcuserdata to .gitignore file
+        cd ~/Projects/MyProject            # changes directory to the project root directory
+        echo ".DS_Store"  >  .gitignore    # overwrites .gitignore file with ".DS_Store"
+        echo "xcuserdata" >> .gitignore    # appends xcuserdata to .gitignore file
 
 2. In the Project Navigator, move the `README.md` file to the project group.
 
