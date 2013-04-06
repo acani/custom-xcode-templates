@@ -11,28 +11,6 @@
 	<string>com.acani.dt.unit.cocoaTouchApplicationUnitTestBundle</string>
 	<key>Kind</key>
 	<string>Xcode.Xcode3.ProjectTemplateUnitKind</string>
-	<key>Options</key>
-	<array>
-		<dict>
-			<key>Identifier</key>
-			<string>coreData</string>
-			<key>Units</key>
-			<dict>
-				<key>true</key>
-				<dict>
-					<key>Targets</key>
-					<array>
-						<dict>
-							<key>Frameworks</key>
-							<array>
-								<string>CoreData</string>
-							</array>
-						</dict>
-					</array>
-				</dict>
-			</dict>
-		</dict>
-	</array>
 	<key>Targets</key>
 	<array>
 		<dict>

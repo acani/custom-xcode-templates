@@ -2,12 +2,6 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>Definitions</key>
-	<dict>
-		<key>*:*:importCocoa</key>
-		<string>#import &lt;UIKit/UIKit.h&gt;
-</string>
-	</dict>
 	<key>Identifier</key>
 	<string>com.acani.dt.unit.iPhoneBase</string>
 	<key>Kind</key>
