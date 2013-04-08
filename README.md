@@ -40,9 +40,10 @@ For now, to manually circumvent these issues, follow the steps below after creat
 
     Enter the following commands in Terminal.
 
-        cd ~/Projects/MyProject            # changes directory to the project root directory
-        echo ".DS_Store"  >  .gitignore    # overwrites .gitignore file with ".DS_Store"
-        echo "xcuserdata" >> .gitignore    # appends xcuserdata to .gitignore file
+        cd ~/Projects/MyProject          # changes directory to the project root directory
+        echo .DS_Store  >  .gitignore    # overwrites .gitignore file with ".DS_Store"
+        echo xcuserdata >> .gitignore    # appends xcuserdata to .gitignore file
+        echo .idea      >> .gitignore    # appends .idea to .gitignore file
 
 2. In the Project Navigator, move the `README.md` file to the project group.
 
