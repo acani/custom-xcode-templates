@@ -1,5 +1,3 @@
-#import <SenTestingKit/SenTestingKit.h>
-
 @implementation NSInvocation (SetTestMethodPrefixToSpec)
 
 + (void)load
