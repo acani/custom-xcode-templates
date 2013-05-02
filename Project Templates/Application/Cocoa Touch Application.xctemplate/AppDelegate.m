@@ -2,6 +2,8 @@
 
 @implementation ___VARIABLE_classPrefix:identifier___AppDelegate
 
+#pragma mark - UIApplicationDelegate
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Customize application after launch.
