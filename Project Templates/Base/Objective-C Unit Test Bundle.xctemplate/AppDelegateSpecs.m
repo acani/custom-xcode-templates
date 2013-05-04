@@ -7,15 +7,17 @@
 
 - (void)specLaunch
 {
-  ___VARIABLE_classPrefix:identifier___AppDelegate *appDelegate = (___VARIABLE_classPrefix:identifier___AppDelegate *)[UIApplication sharedApplication].delegate;
-  STAssertNotNil(appDelegate,                                                                       @"Create and set appDelegate.");
-  STAssertTrue([appDelegate isMemberOfClass:[___VARIABLE_classPrefix:identifier___AppDelegate class]],                                @"Make ACFAppDelegate.");
+    // Spec `appDelegate`.
+    ___VARIABLE_classPrefix:identifier___AppDelegate *appDelegate = (___VARIABLE_classPrefix:identifier___AppDelegate *)[UIApplication sharedApplication].delegate;
+    STAssertNotNil(appDelegate, nil);
+    STAssertTrue([appDelegate isMemberOfClass:[___VARIABLE_classPrefix:identifier___AppDelegate class]], nil);
 
-  UIWindow *window = appDelegate.window;
-  STAssertNotNil(window,                                                                            @"Create window.");
-  STAssertEquals(window.frame, [[UIScreen mainScreen] bounds],                                      @"Set frame to main-screen bounds.");
-  STAssertEquals(window, [UIApplication sharedApplication].keyWindow,                               @"Make key.");
-  STAssertFalse (window.hidden,                                                                     @"Make visible.");
+    // Spec `_window`.
+    UIWindow *window = appDelegate.window;
+    STAssertNotNil(window, nil);
+    STAssertEquals(window.frame, [[UIScreen mainScreen] bounds], nil);
+    STAssertEquals(window, [UIApplication sharedApplication].keyWindow, nil);
+    STAssertFalse (window.hidden, nil);
 }
 
 @end
